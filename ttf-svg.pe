@@ -1,0 +1,5 @@
+#!/usr/bin/fontforge
+Open($1)
+Generate("out/" + $1:r + ".ttf")
+Generate("out/" + $1:r + ".svg")
+Generate("out/." + $1:r + ".otf")
